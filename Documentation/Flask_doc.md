@@ -24,7 +24,7 @@ Applications that use the Flask framework include **Pinterest** and
   the different versions of the libraries.) </br> If you’re using Python 2,
   Install Virtual Enviroment first and replace venv with virtualenv in the below
   commands.. If you’re using a modern version of Python, you can may or may not
-  create Virtual Enviroment.   
+  create Virtual Enviroment.
    **On Linux**: `sudo apt-get install python3-venv python3 -m venv env source env/bin/activate`
 
       **On Windows**:
