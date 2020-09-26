@@ -1,4 +1,4 @@
-Literature Survey
+#Literature Survey
 
 **A Study on Transfer Learning for Binary Classification**
 
@@ -10,7 +10,7 @@ Introduction
 
 Transfer Learning is the reuse of a pre-trained model on a new but similar problem. Basically, in transfer learning, a machine exploits the knowledge gained from a previous task to improve generalization about another i.e we transfer the weights that a network has learned in the previous task to the new task.
 
-It&#39;s currently very popular in deep learning because it can train deep neural networks with comparatively little data. This is very useful in the data science field since most real-world problems typically do not have millions of labelled data points to train such complex models.
+It is currently very popular in deep learning because it can train deep neural networks with comparatively little data. This is very useful in the data science field since most real-world problems typically do not have millions of labelled data points to train such complex models.
 
 Use Cases
 
