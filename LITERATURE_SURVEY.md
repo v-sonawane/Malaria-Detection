@@ -8,12 +8,17 @@
 - [What is Transfer Learning?](#what-is-transfer-learning)
 - [Use Cases of Transfer Learning](#use-cases-of-transfer-learning)
 - [VGG16](#vgg16)
+- [ResNet](#resnet)
+- [Inception v3](#inception-v3)
+- [Comparative Case-Study of VGG16, ResNet and Inception v3 models](#comparative-case-study-of-vgg16-resnet-and-inception-v3-models)
 
 ## Abstract
 
-Binary classification is one of the most common and frequently tackled problems in the deep learning domain. It is generally applied when the user wants to classify an entity into one of the two possible categories. For an instance, given a dataset of labelled images of cats and dogs, we can apply binary classification to predict whether the image is of a cat or a dog. Though this seems like a trivial task, it does involve fair amount of underlying computation. This computation is based on incorporating the principles used for efficient classification by ‘Intelligent Algorithms.’  One of those intelligent algorithms are Neural Networks. Through the effective use of neural networks, binary classification problems can be solved to a fairly high degree. In this literature survey, we are going to observe how Transfer Learning improves the performance of a neural network based deep learning model.
+**Binary classification** is one of the most common and frequently tackled problems in the deep learning domain. It is generally applied when the user wants to classify an entity into one of the *two* possible categories. The difference between binary & multi-class classification is aptly showed in following snippet:
 
 <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/multiclass_classification.png" height="200" width="400" align="center">
+
+For an instance, given a dataset of labelled images of cats and dogs, we can apply binary classification to predict whether the image is of a cat or a dog. Though this seems like a trivial task, it does involve fair amount of underlying computation. This computation is based on incorporating the principles used for efficient classification by ‘Intelligent Algorithms.’  One of those intelligent algorithms are Neural Networks. Through the effective use of neural networks, binary classification problems can be solved to a fairly high degree. In this literature survey, we are going to observe how Transfer Learning improves the performance of a neural network based deep learning model.
 
 ## What is Transfer Learning?
 Transfer Learning is the reuse of a pre-trained model on a new but similar problem. Basically, in transfer learning, a machine exploits the knowledge gained from a previous task to improve generalization about another i.e we transfer the weights that a network has learned in the previous task to the new task. 
