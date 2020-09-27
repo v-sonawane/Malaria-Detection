@@ -7,9 +7,10 @@
 - [Abstract](#abstract)
 - [What is Transfer Learning?](#what-is-transfer-learning)
 - [Use Cases of Transfer Learning](#use-cases-of-transfer-learning)
-- [VGG16](#vgg16)
-- [ResNet](#resnet)
-- [Inception v3](#inception-v3)
+- [Popular Pre-Trained Models for Transfer Learning](#popular-pre-trained-models-for-transfer-learning)
+- - [VGG16](#vgg16)
+- - [ResNet](#resnet)
+- - [Inception v3](#inception-v3)
 - [Comparative Case-Study of VGG16, ResNet and Inception v3 models](#comparative-case-study-of-vgg16-resnet-and-inception-v3-models)
 
 ## Abstract
@@ -29,10 +30,13 @@ Transfer Learning is the reuse of a pre-trained model on a new but similar probl
 It's currently very popular in deep learning because it can train deep neural networks with comparatively little data. This is very useful in the data science field since most real-world problems typically do not have millions of labelled data points to train such complex models.  
 
 ## Use Cases of Transfer Learning
+
 The general use case for using transfer learning is when we need to use the knowledge a model has learned from a task with a lot of available labelled training data in a new task that doesn't have much data. So that instead of starting the learning process from scratch, we start with patterns learned from solving a related task.
 
-Transfer learning is mostly used in computer vision and natural language processing tasks like sentiment analysis due to the huge amount of computational power required. Transfer learning has several benefits, but the main advantages are saving training time, better performance of neural networks (in most cases), and not needing a lot of data
-Popular Pre-Trained Models for Transfer Learning
+Transfer learning is mostly used in **computer vision** and **natural language processing** tasks like **sentiment analysis** due to the huge amount of computational power required. Transfer learning has several benefits, but the main advantages are saving training time, better performance of neural networks (in most cases), and not needing a lot of data.
+
+## Popular Pre-Trained Models for Transfer Learning
+
 Some of the very popular pre-trained models for Transfer Learning are as follows:
 - VGG-16
 - ResNet
