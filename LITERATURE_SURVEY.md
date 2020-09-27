@@ -8,7 +8,7 @@
 - [What is Transfer Learning?](#what-is-transfer-learning)
 - [Use Cases of Transfer Learning](#use-cases-of-transfer-learning)
 - [Popular Pre-Trained Models for Transfer Learning](#popular-pre-trained-models-for-transfer-learning)
-- - [VGG16](#vgg16)
+  - [VGG16](#vgg16)
 - - [ResNet](#resnet)
 - - [Inception v3](#inception-v3)
 - [Comparative Case-Study of VGG16, ResNet and Inception v3 models](#comparative-case-study-of-vgg16-resnet-and-inception-v3-models)
