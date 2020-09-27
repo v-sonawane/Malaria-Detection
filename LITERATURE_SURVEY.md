@@ -6,7 +6,8 @@
 
 - [Abstract](#abstract)
 - [What is Transfer Learning?](#what-is-transfer-learning)
-- [Use Cases of Transfer Learning ]
+- [Use Cases of Transfer Learning](#use-cases-of-transfer-learning)
+- [VGG16](#vgg16)
 
 ## Abstract
 
@@ -14,7 +15,7 @@ Binary classification is one of the most common and frequently tackled problems 
 
 <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/multiclass_classification.png" height="200" width="400" align="center">
 
-## What is Transfer Learning :grey_question:
+## What is Transfer Learning?
 Transfer Learning is the reuse of a pre-trained model on a new but similar problem. Basically, in transfer learning, a machine exploits the knowledge gained from a previous task to improve generalization about another i.e we transfer the weights that a network has learned in the previous task to the new task. 
 It's currently very popular in deep learning because it can train deep neural networks with comparatively little data. This is very useful in the data science field since most real-world problems typically do not have millions of labelled data points to train such complex models.
 
@@ -30,7 +31,7 @@ Some of the very popular pre-trained models for Transfer Learning are as follows
 - ResNet
 - Inceptionv3
 
-## VGG-16
+## VGG16
 
 VGG16 is a convolutional neural network model proposed by K. Simonyan and A. Zisserman from the University of Oxford in the paper “Very Deep Convolutional Networks for Large-Scale Image Recognition”. The model achieves 92.7% top-5 test accuracy in ImageNet, which is a dataset of over 14 million images belonging to 1000 classes. It was one of the famous model submitted to ILSVRC-2014. As a result, the network has learned rich feature representations for a wide range of images. It makes the improvement over AlexNet by replacing large kernel-sized filters (11 and 5 in the first and second convolutional layer, respectively) with multiple 3×3 kernel-sized filters one after another. VGG16 was trained for weeks and was using NVIDIA Titan Black GPU’s.
 
@@ -72,7 +73,7 @@ Along with the above-mentioned layers, there are two major add-ons in the origin
 The weights for Inception V3 are smaller than both VGG and ResNet, coming in at 96MB.
 
 
-## Comparative Case-Study of various Models
+## Comparative Case-Study of VGG16, ResNet and Inception v3 models
 
 - Inception is created to serve the purpose of reducing the computational burden of deep neural nets while obtaining state-of-art performance. As the network goes deeper, the computational efficiency will also decrease, therefore the authors of Inception were interested in finding a solution to scale up neural nets without increasing computational cost.
 - While Inception focuses on computational cost, ResNet focuses on computational accuracy. Intuitively, deeper networks should not perform worse than the shallower networks, but in practice, the deeper networks performed worse than the shallower networks, caused not by overfitting, but by an optimization problem. 
